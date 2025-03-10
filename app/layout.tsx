@@ -33,7 +33,7 @@ export default function RootLayout({
       >
         <SWRConfig
           value={{
-            refreshInterval: 1000 * 30 // 30 seconds
+            refreshInterval: 5000 // 1 hour
             // fetcher
             // onError: (error, key) => {
             //   if (error.status !== 403 && error.status !== 404) {
